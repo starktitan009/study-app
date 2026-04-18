@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study App</title>
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/stars.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- APP TITLE -->
+    <h1 class="title">📘 Smart Study</h1>
+
+    <!-- LOGIN SCREEN -->
+    <div id="login-screen" class="card">
+      <h2>Start Learning</h2>
+
+      <input id="name-input" type="text" placeholder="Enter your name">
+      <input id="class-input" type="text" placeholder="Enter your class">
+
+      <button id="start-btn">Continue</button>
+
+      <h3>Previous Users</h3>
+      <div id="previous-users"></div>
+    </div>
+
+    <!-- SUBJECT SELECTION -->
+    <div id="subject-screen" class="card hidden">
+      <h2>Select Subject</h2>
+
+      <button class="subject-btn" data-subject="physics">Physics</button>
+      <button class="subject-btn" data-subject="math">Math</button>
+      <button class="subject-btn" data-subject="chem">Chemistry</button>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div id="quiz-screen" class="card hidden">
+      <h2 id="quiz-title">Quiz</h2>
+
+      <div id="questions-container"></div>
+
+      <button id="submit-btn">Submit</button>
+    </div>
+
+    <!-- RESULT SCREEN -->
+    <div id="result-screen" class="card hidden">
+      <h2>Your Result</h2>
+
+      <div id="score"></div>
+      <div id="answers"></div>
+
+      <button id="back-btn">Back to Subjects</button>
+    </div>
+
+  </div>
+
+  <!-- MAIN SCRIPT -->
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>

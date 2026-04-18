@@ -1,0 +1,134 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body {
+  background: #0f172a;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* CARD STYLE */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* SUBJECT BUTTONS */
+.subject-btn {
+  background: #3b82f6;
+}
+
+.subject-btn:hover {
+  background: #2563eb;
+}
+
+/* PREVIOUS USERS */
+#previous-users button {
+  width: auto;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #64748b;
+}
+
+#previous-users button:hover {
+  background: #475569;
+}
+
+/* QUESTIONS */
+#questions-container {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+.option {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* RESULT */
+#score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#answers {
+  text-align: left;
+  font-size: 14px;
+}
+
+/* HIDDEN CLASS */
+.hidden {
+  display: none;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
