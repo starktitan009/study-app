@@ -15,7 +15,8 @@ study-app/
 │
 ├── data/               # Backup data
 │   └── questions.js    # Fallback questions
-│
+│___ llm/
+|    |__openai.vpm
 └── README.md           # (Optional) project description
 
 # 📘 Smart Study App
