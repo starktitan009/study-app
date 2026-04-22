@@ -2,7 +2,7 @@
 import { saveUser, getUsers, saveScore } from './storage/db.js';
 import { getQuestions } from './services/api.js';
 
-// ELEMENTS
+// ELEMENTS on screen
 const loginScreen = document.getElementById("login-screen");
 const subjectScreen = document.getElementById("subject-screen");
 const quizScreen = document.getElementById("quiz-screen");
