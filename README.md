@@ -1,23 +1,4 @@
-study-app/
-│
-├── index.html          # Main UI (login, quiz, result)
-├── style.css           # Main styling (mobile-friendly)
-├── app.js              # Core logic (flow of app)
-│
-├── assets/             # Visual stuff
-│   └── stars.css       # Star background animation
-│
-├── services/           # External/API logic
-│   └── api.js          # Fetch/generate questions
-│
-├── storage/            # Data handling
-│   └── db.js           # Save/load users & scores
-│
-├── data/               # Backup data
-│   └── questions.js    # Fallback questions
-│___ llm/
-|    |__openai.vpm
-└── README.md           # (Optional) project description
+<img width="799" height="843" alt="image" src="https://github.com/user-attachments/assets/0d006dea-bfc1-47fe-a29f-fc2929194aed" />
 
 # 📘 Smart Study App
 
