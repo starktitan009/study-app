@@ -1,4 +1,4 @@
-<img width="799" height="843" alt="image" src="https://github.com/user-attachments/assets/0d006dea-bfc1-47fe-a29f-fc2929194aed" />
+
 
 # 📘 Smart Study App
 
@@ -23,3 +23,9 @@ Built using HTML, CSS, and JavaScript with modular structure.
 ---
 
 ## 🏗️ Project Structure
+<img width="799" height="843" alt="image" src="https://github.com/user-attachments/assets/0d006dea-bfc1-47fe-a29f-fc2929194aed" />
+
+
+## NOTE
+Users can add their OPEN-AI API KEY at
+services >  api.js  
