@@ -1,5 +1,5 @@
 // OPTIONAL: ADD YOUR OPENAI API KEY HERE
-const API_KEY = "";
+const API_KEY = "sk-efgh5678abcd1234efgh5678abcd1234efgh5678";
 
 // MAIN FUNCTION
 export async function getQuestions(subject) {
